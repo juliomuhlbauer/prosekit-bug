@@ -1,0 +1,42 @@
+{
+  "name": "prosekit-bug",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build && tsc",
+    "serve": "vite preview",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@blocknote/core": "^0.30.0",
+    "@blocknote/react": "^0.30.0",
+    "@chakra-ui/react": "^3.17.0",
+    "@emotion/react": "^11.14.0",
+    "@tanstack/react-router": "^1.120.5",
+    "@tanstack/router-devtools": "^1.119.0",
+    "firebase": "^11.6",
+    "nanoid": "^5.1.0",
+    "next-themes": "^0.4.4",
+    "prosekit": "^0.13.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "usehooks-ts": "^3.1.1",
+    "valtio": "^2.1.4",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "devDependencies": {
+    "@tanstack/router-plugin": "^1.120.3",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "babel-plugin-react-compiler": "^19.1.0-rc.2",
+    "jsdom": "^26.0.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-pwa": "^1.0.0",
+    "vitest": "^3.0.5",
+    "web-vitals": "^4.2.4"
+  }
+}

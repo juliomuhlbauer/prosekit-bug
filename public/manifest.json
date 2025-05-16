@@ -1,0 +1,28 @@
+{
+  "short_name": "Notes",
+  "name": "Notes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#27272a",
+  "theme_color": "#3f3f46",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New note",
+      "url": "/new",
+      "icons": [
+        {
+          "src": "/plus.png",
+          "sizes": "24x24",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
