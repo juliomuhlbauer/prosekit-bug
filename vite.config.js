@@ -14,13 +14,13 @@ export default defineConfig({
         plugins: [["babel-plugin-react-compiler"]],
       },
     }),
-    VitePWA({
-      registerType: "autoUpdate",
-      injectRegister: "auto",
-      workbox: {
-        globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
-      },
-      manifest: false,
-    }),
+    // VitePWA({
+    //   registerType: "autoUpdate",
+    //   injectRegister: "auto",
+    //   workbox: {
+    //     globPatterns: ["**/*.{js,css,html,ico,png,svg}"],
+    //   },
+    //   manifest: false,
+    // }),
   ],
 });
