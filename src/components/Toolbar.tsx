@@ -35,6 +35,7 @@ function ToolbarButton({
       aria-label={tooltip}
       disabled={disabled}
       onClick={onClick}
+      onMouseDown={(event) => event.preventDefault()}
     >
       {children}
     </button>
