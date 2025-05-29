@@ -43,6 +43,8 @@ function ToolbarButton({
 }
 
 export function Toolbar() {
+  "use no memo";
+
   const editor = useEditor<EditorExtension>({ update: true });
 
   return (
